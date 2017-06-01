@@ -1,0 +1,11 @@
+/node_modules
+/public
+.vscode
+npm-debug.log
+angular/node_modules
+
+
+#in prod on heroku
+#/angular
+#/test
+#*comment on /public

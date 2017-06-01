@@ -1,0 +1,32 @@
+{
+  "name": "ng-full-stack",
+  "version": "1.0.0",
+  "description": "ng-full-stack is todo and auth app built by Node, Express, Mongoose include Mocha, Chai for testing backend and include passport-jwt for authentication, for the frontend built by AngularCLI and PrimgNG feel free to use this repo and welcome for pull request",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently \"mongod\" \"nodemon\"",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Khongrit Jan-In",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.5",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "concurrently": "^3.4.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
